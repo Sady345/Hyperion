@@ -1,0 +1,46 @@
+.title-slide {
+  background-image: url("title_background.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+
+.remark-slide-content {
+  font-size: 18px;        /* default text size */
+  padding: 30px;          /* space inside slides */
+  line-height: 1.4;
+  background-color: white; /* default background */
+  color: #333333;  /* default text color */
+  font-family: Verdana;
+}
+
+.remark-slide-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.remark-slide-content h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #b32548;
+}
+.remark-slide-content h3 {
+  font-size: 28px;
+  color: #b32548;
+}
+
+.remark-slide-content h4 {
+  font-size: 22px;
+  color: #b32548;
+}
+
+
+
+.title-slide h1,
+.title-slide h2,
+.title-slide h3 {
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
