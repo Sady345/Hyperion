@@ -43,7 +43,7 @@ xaringanExtra::use_panelset()
   <figure style="margin: 0; text-align: center;">
     <img src="em_spectrum.png" 
          style="width: 120%; height: auto; display: block; " />
-         <figcaption { margin-top: 5px; }>
+         <figcaption>
     Source: <a href="https://www.specim.com/technology/what-is-hyperspectral-imaging/">specim.com</a>
     </figcaption>
     </figure>

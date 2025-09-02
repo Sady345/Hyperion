@@ -6,6 +6,36 @@
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
 }
 
+.title-slide::after {
+  content: "Not the roller coaster";
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  padding-top: 130px;       /* space for image */
+  font-size: 0.85em;
+  color: #ff4444;
+  font-style: italic;
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+  text-align: center;
+  width: 120px;
+
+  background-image: url("hyperia.png");
+  background-size: 120px auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* arrow pointing up at the image */
+.title-slide::before {
+  content: "✗";  /* unicode cross mark */
+  position: absolute;
+  bottom: 75px;   /* adjust to place relative to image */
+  right: 90px;    /* adjust sideways */
+  font-size: 2.5em;
+  color: #ff4444;
+  font-family: "Comic Sans MS", "Comic Neue", cursive; /* doodle vibe */
+  transform: rotate(-15deg);  /* tilt for hand-drawn look */
+}
 
 .remark-slide-content {
   font-size: 18px;        /* default text size */
